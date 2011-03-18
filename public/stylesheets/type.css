@@ -1,0 +1,97 @@
+body {  }
+
+body, input {
+	font: normal 14px/22px Helvetica,helvetica,Arial,arial,sans-serif;
+	color: #53514e;
+	text-shadow: 0px 0px 1px rgba(255,255,255,.1);
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	/*background: rgba(0,0,0,.05);*/
+	color: #7f9438;
+	color: #2e78bc;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+	font-family: 'BergamoProRegular',georgia,serif; font-weight: normal;
+	line-height: 22px;
+	margin-bottom: 22px;
+}
+p, ul, ol, pre { 
+	margin-bottom: 22px; 
+}
+img.full { 
+	display: block;
+	width: 600px;
+}
+ul , ol{
+	margin-left: 44px;
+}
+h1, h1 a{
+	font-size: 33px;
+	color: #333230;
+	line-height: 44px;
+}
+h2 {
+	font-size: 22px;
+	color: #333230;
+}
+h3 {
+	font-size: 22px;
+}
+h4 { 
+	font-size: 18px;
+	color: #333230;
+	margin-bottom: 0;
+}
+h5 {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Helvetica,helvetica,Arial,arial,sans-serif;
+	margin-bottom: 0;
+}
+blockquote {
+	margin: 0 0 22px 0;
+	background: rgba(0,0,0,.05);
+	border-left: 4px solid rgba(0,0,0,.1);
+	padding: 22px;
+	font-style: italic;
+}
+	blockquote p:last-child {
+		margin-bottom: 0;
+	}
+	
+/* Forms */
+form { 
+}
+	form p {
+		margin: 0;
+	}
+label {
+	display: block;
+}
+input {
+	display: block;
+}
+input[type=text], input[type=email], input[type=url], textarea {
+	margin: 6px 0;
+	width: 400px;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 30px;
+	background: rgba(255,255,255,.8);
+	font-size: 16px;
+	line-height: 30px;
+	padding: 0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+textarea {
+	height: 160px; 
+	width: 450px;
+	font-size: 14px;
+	line-height: 22px;
+}

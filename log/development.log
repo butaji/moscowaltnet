@@ -4928,3 +4928,1118 @@ ActionController::RoutingError (No route matches "/home/news"):
   
 
 Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:11:44 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:11:55 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:11:56 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:12:26 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:12:27 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:12:33 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:22 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:24 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:40 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:42 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:43 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:44 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:58 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:13:59 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:00 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:03 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:16 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:17 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:37 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:38 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:14:54 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:15:03 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:15:04 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:15:08 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:15:09 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:23:44 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:24:01 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:24:33 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/noise.png" for 127.0.0.1 at Fri Mar 18 23:24:33 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/noise.png"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:24:34 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/noise.png" for 127.0.0.1 at Fri Mar 18 23:24:34 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/noise.png"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:24:35 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/noise.png" for 127.0.0.1 at Fri Mar 18 23:24:35 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/noise.png"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:25:21 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:25:48 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:26:40 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:26:42 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Fri Mar 18 23:26:44 +0300 2011
+
+ActionController::RoutingError (No route matches "/about"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:26:47 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:26:48 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:27:24 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:27:30 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:27:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 49ms (Views: 48.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:28:22 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:28:23 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:28:24 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:29:10 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:29:11 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:31:31 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:31:32 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:32:07 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:34:19 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:34:20 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:34:48 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:36:14 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:36:15 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:36:16 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:37:16 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/noise.png" for 127.0.0.1 at Fri Mar 18 23:37:16 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/noise.png"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:37:17 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/noise.png" for 127.0.0.1 at Fri Mar 18 23:37:17 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/noise.png"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:38:11 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:38:12 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:38:12 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:38:36 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:17 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:19 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:36 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:38 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:38 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:56 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:39:57 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:40:06 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:40:39 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:03 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:04 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:07 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:41 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:42 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:41:56 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at Fri Mar 18 23:42:03 +0300 2011
+
+ActionController::RoutingError (No route matches "/about"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:42:17 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:42:18 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:42:19 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:42:34 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:43:22 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:45:23 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:45:24 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:46:19 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:47:28 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:50:48 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  select sqlite_version(*)
+  [1m[36mSQL (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35mSQL (0.1ms)[0m  PRAGMA index_list("schema_migrations")
+  [1m[36mSQL (1.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mSQL (0.1ms)[0m   SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+Migrating to CreatePosts (20110318205325)
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE TABLE "posts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "title" varchar(255), "content" text, "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20110318205325')
+  [1m[36mSQL (0.2ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations"
+  [1m[36mSQL (0.1ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mSQL (0.0ms)[0m  PRAGMA index_list("posts")
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:54:42 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 78ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:55:42 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:55:43 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at Fri Mar 18 23:55:45 +0300 2011
+
+ActionController::RoutingError (No route matches "/about"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:55:48 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 6.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:58:39 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 12ms (Views: 7.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:58:40 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 12ms (Views: 7.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:58:49 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.3ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:58:49 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 15ms (Views: 9.5ms | ActiveRecord: 0.3ms)
+  [1m[36mSQL (0.3ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mAREL (0.4ms)[0m  INSERT INTO "posts" ("title", "content", "updated_at", "name", "created_at") VALUES (123, NULL, '2011-03-18 20:59:31.299284', 123, '2011-03-18 20:59:31.299284')
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:59:46 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 28ms (Views: 11.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:59:48 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.2ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 15ms (Views: 10.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:59:49 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (51.3ms)
+Completed 200 OK in 60ms (Views: 55.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Fri Mar 18 23:59:50 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 14ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:00:08 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:00:09 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 14ms (Views: 10.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:08:32 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+Rendered home/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 19ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:08:35 +0300 2011
+  Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+Rendered home/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at Sat Mar 19 00:08:36 +0300 2011
+
+ActionController::RoutingError (No route matches "/events"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (23.0ms)
+Completed   in 28ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2190533000_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (65.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:51 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2191656960_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:51 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2190845180_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:51 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2190105960_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (48.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (52.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:51 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2191766960_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:52 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2190935040_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:09:52 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: <% @posts.each do |post| %>
+    2: <div>Post: <%= post.name %>
+    3: 	<%= post.title %></div>
+    4: <% end %>
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___1830798146_2190153560_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:10:03 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:10:04 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at Sat Mar 19 00:10:05 +0300 2011
+
+ActionController::RoutingError (No route matches "/events"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/news" for 127.0.0.1 at Sat Mar 19 00:10:08 +0300 2011
+
+ActionController::RoutingError (No route matches "/news"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:10:25 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:10:25 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 50ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:10:27 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:10:27 +0300 2011
+
+ActionController::RoutingError (No route matches "/home/events"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 19 00:10:31 +0300 2011
+
+ActionController::RoutingError (No route matches "/home/news"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:11:12 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:11:13 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:11:15 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 19 00:11:18 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:11:19 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:11:19 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:11:20 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 19 00:11:22 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:11:23 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:13:07 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:13:25 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:16:00 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:16:03 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 00:17:04 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:17:09 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/images/xml.gif" for 127.0.0.1 at Sat Mar 19 00:17:09 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/images/ical.gif" for 127.0.0.1 at Sat Mar 19 00:17:09 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/images/html.gif" for 127.0.0.1 at Sat Mar 19 00:17:09 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:17:16 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/images/xml.gif" for 127.0.0.1 at Sat Mar 19 00:17:16 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/images/ical.gif" for 127.0.0.1 at Sat Mar 19 00:17:16 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/images/html.gif" for 127.0.0.1 at Sat Mar 19 00:17:16 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:17:17 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/images/ical.gif" for 127.0.0.1 at Sat Mar 19 00:17:17 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/images/xml.gif" for 127.0.0.1 at Sat Mar 19 00:17:17 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/images/html.gif" for 127.0.0.1 at Sat Mar 19 00:17:17 +0300 2011
+
+AbstractController::ActionNotFound (The action 'images' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:18:47 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:20:00 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 00:20:33 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 50ms (Views: 49.6ms | ActiveRecord: 0.0ms)
