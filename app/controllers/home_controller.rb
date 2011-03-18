@@ -9,4 +9,7 @@ class HomeController < ApplicationController
   def news
   end
 
+  def speakers
+  end
+
 end
