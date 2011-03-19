@@ -3,13 +3,12 @@ require 'feed-normalizer'
 require 'open-uri'
    
 class HomeController < ApplicationController
+  caches_action :events
  
   def index
   end
   
   def events
-    @events = []
-    feed = FeedNormalizer::FeedNormalizer.parse open('http://www.iht.com/rss/frontpage.xml')
   end
   
   def news

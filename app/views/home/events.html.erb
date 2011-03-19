@@ -5,37 +5,44 @@
 	<p>В это разделе ниже вы можете узнать чему будут посвещены, когда и где будут проходить ближайшие встречи нашей группы.</p>
 </article>
 
-<% if (@events.length == 0) %>
+	<hr />
 
-<article>
-	<header>
-		<h1>Не опубликованы</h1>
-		<div class="postmeta">
-			<time datetime="2010-09-02EDT00:10:00-0400">September 2nd, 2010</time>
-		</div>
-	</header>
-	<p>В ближайшее время встречи не найдены (обычно это последний четверг каждого месяца и в скором времени анонс должен появится здесь)</p>
-</article>
+	<p>
+		Google calendar наших встреч
 
-<% end%>
+		<a target="_blank" href="https://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/basic"><img src="https://www.google.com/calendar/images/xml.gif"></a>&nbsp;<a target="_blank" href="https://www.google.com/calendar/ical/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/basic.ics"><img src="https://www.google.com/calendar/images/ical.gif"></a>&nbsp;<a target="_blank" href="https://www.google.com/calendar/embed?src=i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com&amp;ctz=Europe/Moscow"><img src="https://www.google.com/calendar/images/html.gif"></a>
+	</p>
+	<p>
+		<a href="#" onclick='$("#gcal").show(); $(this).hide(); return false;'>Показать календарь</a>
+	</p>
+	<iframe id='gcal' style='display:none;' src="https://www.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Europe%2FMoscow" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+	
+	<hr />
 
-<% @events.each do |event| %>
+<div id='new_events'>
+	Загрузка событий... 
+</div>
 
-<article>
-	<header>
-		<h1>event.title</h1>
-	</header>
-</article>
+<script type="text/javascript">
+	$(function(){
+		$.ajax({
+			dataType:'jsonp',
+			url: "http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?futureevents=true&orderby=starttime&sortorder=ascending&max-results=1&alt=json",
+			success: function(data) {
+				var entry = data.feed.entry[0];
+				
+				if (entry == undefined) {
+						$('#new_events').html('События не найдены');
+				}
+				
+				debugger;
+				$('#new_events').html('<article><header><h1>' + entry.title.$t +  '</h1><div class="postmeta"><time datetime="' + entry.gd$when[0].startTime + '">' + new Date(entry.gd$when[0].startTime) + '</time></div><div class="comments">' +entry.gd$where[0].valueString + ' <a href="http://maps.google.com/maps?q=' +entry.gd$where[0].valueString + '">(map)</a></div></header><p><pre>' + entry.content.$t + '</pre></p></article>');
+			},
+			error: function(err, err2, err3) {
+				$('#new_events').html(err2);
+			}
+		});	
+	});
+</script>
 
-<% end %>
-
-<hr />
-
-<p>
-	Google calendar наших встреч
-
-	<a target="_blank" href="https://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/basic"><img src="https://www.google.com/calendar/images/xml.gif"></a>&nbsp;<a target="_blank" href="https://www.google.com/calendar/ical/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/basic.ics"><img src="https://www.google.com/calendar/images/ical.gif"></a>&nbsp;<a target="_blank" href="https://www.google.com/calendar/embed?src=i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com&amp;ctz=Europe/Moscow"><img src="https://www.google.com/calendar/images/html.gif"></a>
-
-</p>
-
-<iframe src="https://www.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Europe%2FMoscow" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+	
