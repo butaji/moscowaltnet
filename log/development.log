@@ -6729,3 +6729,191 @@ Started GET "/" for 127.0.0.1 at Sat Mar 19 01:04:15 +0300 2011
   Processing by HomeController#index as HTML
 Rendered home/index.html.erb within layouts/application (2.6ms)
 Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 11:24:48 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 27ms (Views: 26.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:24:52 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 51ms (Views: 50.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:25:15 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:28:00 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.2ms)
+Completed   in 8ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+    4: 	</header>
+    5: </article>
+    6: 
+    7: <% if (@events.length == 0) %>
+    8: 
+    9: <article>
+    10: 	<header>
+  app/views/home/events.html.erb:7:in `_app_views_home_events_html_erb__1800410348_2190907360_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.3ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:28:01 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (0.6ms)
+Completed   in 5ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+    4: 	</header>
+    5: </article>
+    6: 
+    7: <% if (@events.length == 0) %>
+    8: 
+    9: <article>
+    10: 	<header>
+  app/views/home/events.html.erb:7:in `_app_views_home_events_html_erb__1800410348_2191822060_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.7ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:28:15 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:28:53 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:29:31 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:29:43 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:30:01 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:30:19 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 11:31:27 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:31:30 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:32:39 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 11:32:48 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 19 11:32:51 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:32:52 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:35:13 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:35:36 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 19 11:35:38 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 19 11:35:48 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:35:50 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:37:03 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:37:37 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:37:43 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 19 11:38:49 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
