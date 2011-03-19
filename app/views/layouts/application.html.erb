@@ -19,13 +19,20 @@
 				<li><a href="/home/events">events</a> |</li>
 				<li><a href="/home/news">news</a> |</li>
 				<li><a href="/home/speakers">speakers</a> |</li>
-				<li><a href="#" onclick="alert('search not implemented yet'); return false;">search</a></li>
+				<li><a href="#" onclick="$('#blog').slideToggle(); return false;">search</a></li>
 			</ul>
 		</nav>
-	
+		<div id="blog" class="" style="display: none; ">
+			<div id="search" disabled="true">
+				<h4>Поиск (пока не работает)</h4>
+				<input name="searchbox" id="searchbox" type="text" value="Введите поисковый запрос...">
+				<ul class="results" style="display: none; "></ul>
+			</div>
+		</div>
+
 		<%= yield %>	 
-	
-  </div><!-- container -->
+
+	</div><!-- container -->
 
 </body>
 </html>
