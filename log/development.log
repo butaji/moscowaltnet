@@ -10111,3 +10111,155 @@ ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
   
 
 Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (58.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:36:41 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:36:41 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:36:41 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:36:46 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:36:46 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:36:46 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:36:59 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:00 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:00 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:37:02 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:02 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:37:09 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 20ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:09 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:37:13 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:13 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Mon Mar 21 21:37:18 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:18 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:18 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Mon Mar 21 21:37:21 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:21 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Mon Mar 21 21:37:21 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
