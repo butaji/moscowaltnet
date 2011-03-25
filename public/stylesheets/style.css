@@ -230,3 +230,30 @@ aside.comments article .meta time {
 }
 
 .respond { }
+
+.vote {
+	border-right: 2px coral solid;
+	float:left; 
+	padding: 12px 6px 12px 6px;
+	margin-right: 6px;
+	font-size: 1.5em;
+}
+.vote>div {
+	float: left;
+	width: 20px; 
+	text-align: center;
+}
+.voting>article {
+	padding: 0px;
+	margin: 0px;
+}
+.voting>article>header>h1 {
+	padding: 0px;
+	margin: 10px;
+}
+.voting>article>p {
+	margin-left: 80px;
+	padding: 0px;
+	margin-bottom: 10px;
+	
+}
