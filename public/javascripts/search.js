@@ -35,7 +35,7 @@ function googleSearch(term){
 			};
 		}
 		else {
-			resultsUl.append("<li><h2>Ничего не найдено.</h2><p>Вы искали <strong>'" + text  + "</strong>'. Попробуйте уточнить параметры поиска</p></li>");
+			resultsUl.append("<li><h5>Ничего не найдено.</h5><p>Вы искали <strong>'" + text  + "</strong>'. Попробуйте уточнить параметры поиска</p></li>");
 		}
 	});
 }
