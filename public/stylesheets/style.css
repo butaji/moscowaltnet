@@ -143,6 +143,10 @@ header a, nav a { background: none; outline: none; }
 	margin-bottom: 0;
 	font-size: 12px;
 }
+#blog #search li {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
 #blog #search li img {
 	padding: 3px 11px 3px 0;
 	width: 16px;
@@ -153,8 +157,11 @@ header a, nav a { background: none; outline: none; }
 #blog #search li h5 {
 	font-size: 12px;
 }
+#blog #search li h5 a {
+	color: #2E78BC;
+}
 #blog #search li p {
-	margin-left: 29px;
+	margin-left: 0px;
 	margin-bottom: 0;
 }
 article {

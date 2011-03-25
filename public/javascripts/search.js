@@ -1,16 +1,5 @@
 $(function(){
-	$("#searchbox").focus(function(){ 
-		if($(this).val() == $(this).attr('defaultValue'))
-		{
-			$(this).val('');
-		}
-	})
-	.blur(function(){
-		if($(this).val() == '')
-		{
-			$(this).val($(this).attr('defaultValue'));
-		} 
-	})
+	$("#searchbox")
 	.keypress(function(e) {
 		if(e.which == 13 & $(this).val() != '') {
 			googleSearch($(this).val());
@@ -41,7 +30,7 @@ function googleSearch(term){
 		if(results.length){
 			for (var i=0; i < results.length; i++) {
 				var r = results[i];
-				var li = '<li><h2><a href="' + r.url + '">' + r.title + '</a></h2><p>' + r.content + '</p><a href="' + r.url + '">' + r.visibleUrl + '</a></li>';
+				var li = '<li><h5><a href="' + r.url + '">' + r.title + '</a></h5><p>' + r.content + '</p><a href="' + r.url + '">' + 'http://' + r.visibleUrl + '</a></li>';
 				resultsUl.append(li);
 			};
 		}

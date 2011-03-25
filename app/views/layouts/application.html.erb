@@ -41,9 +41,9 @@
 			</nav>
 			<div id="blog" class="" style="display: none; ">
 				<div id="search" disabled="true">
-					<h4>Поиск (пока не работает)</h4>
-					<input name="searchbox" id="searchbox" type="text" value="Введите поисковый запрос...">
-					<ul class="results" id="searchresults" style="display: none; "></ul>
+					<h4>Поиск</h4>
+					<input name="searchbox" id="searchbox" type="text">
+					<ul class="results" id="searchresults" style="display: none;"></ul>
 				</div>
 			</div>
 
@@ -54,8 +54,10 @@
 
 			$(function(){  
 				$("#searchButton").click(function(){
+					
 					$('#blog').slideToggle(); 
-
+					$('#searchbox').focus();
+					
 					return false;
 				});
 			})
