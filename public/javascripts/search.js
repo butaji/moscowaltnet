@@ -30,7 +30,7 @@ function googleSearch(term){
 		if(results.length){
 			for (var i=0; i < results.length; i++) {
 				var r = results[i];
-				var li = '<li><h5><a href="' + r.url + '">' + r.title + '</a></h5><p>' + r.content + '</p><a href="' + r.url + '">' + 'http://' + r.visibleUrl + '</a></li>';
+				var li = '<li><h5><a href="' + r.url + '">' + r.title + '</a></h5><p>' + r.content + '</p></li>';
 				resultsUl.append(li);
 			};
 		}
