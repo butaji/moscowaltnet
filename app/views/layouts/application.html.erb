@@ -61,12 +61,21 @@
 					return false;
 				});
 			})
+</script>
+
+
+<% page_id = params[:controller] + "_" + params[:action] %>
+<% if (page_id != "home_index") %>
+
+<script type="text/javascript">
 
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 			var disqus_shortname = 'moscowaltnet'; // required: replace example with your forum shortname
 
+
 			// The following are highly recommended additional parameters. Remove the slashes in front to use.
-			var disqus_identifier = '<%= params[:controller] + "_" + params[:action] %>';
+			
+			var disqus_identifier = '<%= page_id %>';
 			var disqus_url = '<%= request.url %>';
 
 			/* * * DON'T EDIT BELOW THIS LINE * * */
@@ -78,7 +87,7 @@
 				</script>
 				<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 				<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-
+<% end %>
 			</div><!-- container -->
 
 		</body>
