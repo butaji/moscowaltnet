@@ -66,8 +66,7 @@
 </script>
 
 
-<% page_id = params[:controller] + "_" + params[:action] + "_" + params[:id] %>
-<% if (page_id != "home_index") %>
+<% if (page_id() != "home_index") %>
 
 <script type="text/javascript">
 
@@ -77,7 +76,7 @@
 
 			// The following are highly recommended additional parameters. Remove the slashes in front to use.
 			
-			var disqus_identifier = '<%= page_id %>';
+			var disqus_identifier = '<%= page_id() %>';
 			var disqus_url = '<%= request.url %>';
 
 			/* * * DON'T EDIT BELOW THIS LINE * * */
