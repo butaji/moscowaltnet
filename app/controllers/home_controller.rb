@@ -4,15 +4,21 @@ require 'json'
 class HomeController < ApplicationController 
   caches_action :lastevent, :expires_in => 24.hours, :layout => false
   
+  @@cal_url = "http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full"
+  
   def index
   end
   
   def lastevent
-    logger.debug "================ lastevent've called"
-    @lastevent = JSON.parse(open("http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?futureevents=true&orderby=starttime&sortorder=ascending&max-results=1&alt=json").read)["feed"]["entry"][0]
+    @event = JSON.parse(open("#{@@cal_url}?alt=json&futureevents=true&orderby=starttime&sortorder=ascending&max-results=1").read)["feed"]["entry"][0]
   end
   
   def events
+    @events = JSON.parse(open("#{@@cal_url}?alt=json&orderby=starttime&sortorder=ascending").read)["feed"]["entry"]
+  end
+  
+  def event
+    @event = JSON.parse(open("#{@@cal_url}/#{params[:id]}?alt=json").read)["entry"]
   end
   
   def news

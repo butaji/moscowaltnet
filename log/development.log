@@ -17438,3 +17438,1904 @@ Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:27:37 +0300 2011
 ================ lastevent've called
 Rendered home/lastevent.html.erb within layouts/application (3.5ms)
 Completed 200 OK in 925ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:32:00 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:32:03 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called
+Completed   in 1ms
+
+NameError (undefined local variable or method `url' for #<HomeController:0x10544f8d0>):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:32:13 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called
+Completed   in 0ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:32:37 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 0ms
+
+TypeError (can't convert nil into String):
+  app/controllers/home_controller.rb:13:in `+'
+  app/controllers/home_controller.rb:13:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (48.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (52.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:33:26 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 0ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.+):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:33:50 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 1ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:34:09 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 0ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.3ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:35 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `cal_url' for #<HomeController:0x1054cfcb0>):
+  app/controllers/home_controller.rb:13:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:35 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `cal_url' for #<HomeController:0x105341c68>):
+  app/controllers/home_controller.rb:13:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:36 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 1ms
+
+NameError (undefined local variable or method `cal_url' for #<HomeController:0x1051c6a00>):
+  app/controllers/home_controller.rb:13:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:42 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 0ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:43 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 1ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:51 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 0ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:35:52 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 0ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.1ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:39:12 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 1ms
+
+NoMethodError (undefined method `cal_url' for #<HomeController:0x10547f850>):
+  app/controllers/home_controller.rb:13:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:39:17 +0300 2011
+
+ActionController::RoutingError (No route matches "/home/lastevent"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:39:18 +0300 2011
+
+ActionController::RoutingError (No route matches "/home/lastevent"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:39:19 +0300 2011
+
+ActionController::RoutingError (No route matches "/home/lastevent"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:39:28 +0300 2011
+
+ActionController::RoutingError (undefined method `cal_url=' for HomeController:Class):
+  app/controllers/home_controller.rb:7
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:39:36 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:39:38 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 1ms
+
+NoMethodError (undefined method `cal_url' for #<HomeController:0x1053639f8>):
+  app/controllers/home_controller.rb:13:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:41:45 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called 
+Completed   in 0ms
+
+Errno::ENOENT (No such file or directory - &futureevents=true&orderby=starttime&sortorder=ascending&max-results=1):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (50.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:56:03 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?alt=json
+Completed   in 1167ms
+
+NoMethodError (undefined method `lastevent=' for #<HomeController:0x105450708>):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:56:06 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?alt=json
+Completed   in 1058ms
+
+NoMethodError (undefined method `lastevent=' for #<HomeController:0x1051ea428>):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:56:49 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 48ms
+
+NameError (uninitialized class variable @@cal_url in HomeController):
+  app/controllers/home_controller.rb:12:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:56:50 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 0ms
+
+NameError (uninitialized class variable @@cal_url in HomeController):
+  app/controllers/home_controller.rb:12:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:56:50 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 0ms
+
+NameError (uninitialized class variable @@cal_url in HomeController):
+  app/controllers/home_controller.rb:12:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:57:01 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?alt=json
+Completed   in 973ms
+
+NoMethodError (undefined method `lastevent=' for #<HomeController:0x1050a5a18>):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (49.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (54.4ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:57:03 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?alt=json
+Completed   in 983ms
+
+NoMethodError (undefined method `lastevent=' for #<HomeController:0x105442338>):
+  app/controllers/home_controller.rb:14:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:57:14 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called http://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/full?alt=json
+Rendered home/lastevent.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 876ms (Views: 47.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:58:39 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 832ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:01:44 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (77.5ms)
+Completed 200 OK in 925ms (Views: 97.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:02:44 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1164ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:02:51 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 1008ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:03:23 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (50.5ms)
+Completed 200 OK in 879ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:05:16 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 975ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:05:43 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (59.8ms)
+Completed 200 OK in 1050ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:06:50 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 957ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:07:16 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 989ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:07:32 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 1053ms (Views: 20.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:07:59 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (20.6ms)
+Completed   in 836ms
+
+ActionView::Template::Error (wrong number of arguments (2 for 1)):
+    2: 
+    3: <% @events.each do |event| %>
+    4: 
+    5: ID : <%= event["gCal$uid"]["value"].replace('@google.com', '') %>
+    6: <%= event.to_json %>
+    7: <article>
+    8: 	<header>
+  app/views/home/events.html.erb:5:in `replace'
+  app/views/home/events.html.erb:5:in `_app_views_home_events_html_erb__1800410348_2190381440_0'
+  app/views/home/events.html.erb:3:in `each'
+  app/views/home/events.html.erb:3:in `_app_views_home_events_html_erb__1800410348_2190381440_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.9ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:08:13 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1195ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:10:10 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 1055ms (Views: 42.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:10:28 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 861ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:11:06 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 960ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:11:24 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 876ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:12:35 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (4.0ms)
+Completed   in 1134ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    5: <article>
+    6: 	<header>
+    7: 		<h1><a href="/home/event<%= event["gCal$uid"]["value"].gsub("@google.com","") %>"><%= event["title"]["$t"] %></a></h1>
+    8: 		<div><%= event["dg$When"]["startTime"] %></div>
+    9: 	</header>
+    10: </article>
+    11: <% end%>
+  app/views/home/events.html.erb:8:in `_app_views_home_events_html_erb__1800410348_2190736420_0'
+  app/views/home/events.html.erb:3:in `each'
+  app/views/home/events.html.erb:3:in `_app_views_home_events_html_erb__1800410348_2190736420_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:12:43 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 985ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:12:49 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 944ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:16:47 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 863ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:18:01 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 962ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:18:22 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 847ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:18:43 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (0.6ms)
+Completed   in 1010ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    4: <article>
+    5: 	<header>
+    6: 		<h1><a href="/home/event<%= event["gCal$uid"]["value"].gsub("@google.com","") %>"><%= event["title"]["$t"] %></a></h1>
+    7: 		<div><%= Time.parse(event["gd$when"]["startTime"]).ctime %></div>
+    8: 	</header>
+    9: </article>
+    10: <% end%>
+  app/views/home/events.html.erb:7:in `[]'
+  app/views/home/events.html.erb:7:in `_app_views_home_events_html_erb__1800410348_2191852040_0'
+  app/views/home/events.html.erb:3:in `each'
+  app/views/home/events.html.erb:3:in `_app_views_home_events_html_erb__1800410348_2191852040_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:18:51 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (0.6ms)
+Completed   in 1018ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    4: <article>
+    5: 	<header>
+    6: 		<h1><a href="/home/event<%= event["gCal$uid"]["value"].gsub("@google.com","") %>"><%= event["title"]["$t"] %></a></h1>
+    7: 		<div><%= Time.parse(event["gd$when"]["startTime"]) %></div>
+    8: 	</header>
+    9: </article>
+    10: <% end%>
+  app/views/home/events.html.erb:7:in `[]'
+  app/views/home/events.html.erb:7:in `_app_views_home_events_html_erb__1800410348_2190524220_0'
+  app/views/home/events.html.erb:3:in `each'
+  app/views/home/events.html.erb:3:in `_app_views_home_events_html_erb__1800410348_2190524220_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:19:00 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (0.7ms)
+Completed   in 962ms
+
+ActionView::Template::Error (can't convert String into Integer):
+    4: <article>
+    5: 	<header>
+    6: 		<h1><a href="/home/event<%= event["gCal$uid"]["value"].gsub("@google.com","") %>"><%= event["title"]["$t"] %></a></h1>
+    7: 		<div><%= event["gd$when"]["startTime"] %></div>
+    8: 	</header>
+    9: </article>
+    10: <% end%>
+  app/views/home/events.html.erb:7:in `[]'
+  app/views/home/events.html.erb:7:in `_app_views_home_events_html_erb__1800410348_2191668840_0'
+  app/views/home/events.html.erb:3:in `each'
+  app/views/home/events.html.erb:3:in `_app_views_home_events_html_erb__1800410348_2191668840_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.6ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:19:06 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 971ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:19:20 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 815ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/eventils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:19:29 +0300 2011
+
+AbstractController::ActionNotFound (The action 'eventils1drtp21n5db4ei5sbn1fa60' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/eventils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:19:35 +0300 2011
+
+AbstractController::ActionNotFound (The action 'eventils1drtp21n5db4ei5sbn1fa60' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/eventils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:19:39 +0300 2011
+
+AbstractController::ActionNotFound (The action 'eventils1drtp21n5db4ei5sbn1fa60' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:19:42 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 861ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/" for 127.0.0.1 at Sat Mar 26 13:19:48 +0300 2011
+
+AbstractController::ActionNotFound (The action 'event' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:19:52 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 839ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:19:55 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1047ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:20:01 +0300 2011
+
+AbstractController::ActionNotFound (The action 'event' could not be found for HomeController):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:21:50 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Completed   in 773ms
+
+ActionView::MissingTemplate (Missing template home/event with {:handlers=>[:rjs, :erb, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/butaji/Documents/src/moscowaltnet/app/views"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:22:11 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/event.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 524ms (Views: 59.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:22:28 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/event.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 831ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:23:37 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/event.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 699ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:25:33 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/event.html.erb within layouts/application (21.5ms)
+Completed   in 859ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @lastevent["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+    7: 	<p>Место: <%= @event["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/_eventForm.html.erb:4:in `_app_views_home__event_orm_html_erb___1855000780_2190434540_1982430'
+  app/views/home/event.html.erb:3:in `_app_views_home_event_html_erb__338385929_2190446120_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (47.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (56.5ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:27:27 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/_eventForm.html.erb (0.6ms)
+Rendered home/event.html.erb within layouts/application (2.1ms)
+Completed   in 771ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @lastevent["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+    7: 	<p>Место: <%= @event["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/_eventForm.html.erb:4:in `_app_views_home__event_orm_html_erb___1855000780_2191376020_3121484'
+  app/views/home/event.html.erb:3:in `_app_views_home_event_html_erb__338385929_2191399240_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.8ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:27:44 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/event.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 855ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:28:10 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/_eventForm.html.erb (3.9ms)
+Rendered home/event.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 811ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:28:40 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/_eventForm.html.erb (0.8ms)
+Rendered home/event.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 670ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:28:48 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 937ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:29:07 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 946ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:29:27 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.5ms)
+Rendered home/lastevent.html.erb within layouts/application (2.0ms)
+Completed   in 926ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2191314740_3121484'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2191328080_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:29:38 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (2.7ms)
+Rendered home/lastevent.html.erb within layouts/application (4.5ms)
+Completed   in 1030ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2189943240_2697996'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2189953780_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:29:42 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.5ms)
+Rendered home/lastevent.html.erb within layouts/application (2.0ms)
+Completed   in 811ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2191437520_2697996'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2191447840_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:29:55 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (1.0ms)
+Rendered home/lastevent.html.erb within layouts/application (3.4ms)
+Completed   in 958ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2190454060_2697996'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2190464580_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (9.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (77.0ms)
+
+
+Started GET "/home/" for 127.0.0.1 at Sat Mar 26 13:29:59 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 13:30:02 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:30:04 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.5ms)
+Rendered home/lastevent.html.erb within layouts/application (2.1ms)
+Completed   in 805ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2190740440_2697996'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2190751200_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 13:30:08 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:30:09 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.5ms)
+Rendered home/lastevent.html.erb within layouts/application (2.0ms)
+Completed   in 921ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2191761580_2697996'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2191787080_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.6ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:30:36 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.5ms)
+Rendered home/lastevent.html.erb within layouts/application (2.1ms)
+Completed   in 960ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    1: <article>
+    2: 	<header>
+    3: 		<h1><%= @event["title"]["$t"] %></h1>
+    4: 		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+    5: 		
+    6: 	</header>
+  app/views/home/_eventForm.html.erb:3:in `_app_views_home__event_orm_html_erb___1855000780_2190698420_2697996'
+  app/views/home/lastevent.html.erb:26:in `_app_views_home_lastevent_html_erb___2082589984_2190709760_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:31:20 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 993ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:31:58 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.2ms)
+Rendered home/lastevent.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 918ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:32:45 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.8ms)
+Rendered home/lastevent.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 958ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:32:56 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1056ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:33:01 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/event.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 696ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/o6p678hpf1d42ma5b26vv586bc" for 127.0.0.1 at Sat Mar 26 13:34:06 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"o6p678hpf1d42ma5b26vv586bc"}
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/event.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 831ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:34:18 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.8ms)
+Rendered home/lastevent.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 948ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/ils1drtp21n5db4ei5sbn1fa60" for 127.0.0.1 at Sat Mar 26 13:34:28 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"ils1drtp21n5db4ei5sbn1fa60"}
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/event.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 847ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:35:57 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (1.0ms)
+Rendered home/lastevent.html.erb within layouts/application (65.5ms)
+Completed 200 OK in 1038ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:41:29 +0300 2011
+  Processing by HomeController#events as HTML
+ERROR: compiling _app_views_home_events_html_erb__1800410348_2191274640_0 RAISED compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:6: syntax error, unexpected ')', expecting '}'
+...lue"].gsub("@google.com","") );@output_buffer.safe_concat('<...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:10: syntax error, unexpected kEND, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_home_events_html_erb__1800410348_2191274640_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "home/events";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new; title "Архив событий" 
+@output_buffer.safe_concat('
+');@output_buffer.append_if_string=  @events.each do |event| 
+@output_buffer.safe_concat('<article>
+	<header>
+		<h1>');@output_buffer.append= ( link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") );@output_buffer.safe_concat('</h1>
+		<div>');@output_buffer.append= ( Time.parse(event["gd$when"][0]["startTime"]).ctime );@output_buffer.safe_concat('</div>
+	</header>
+</article>
+'); end
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14:in `compile'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__738958071__process_action__1656261527__callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered home/events.html.erb within layouts/application (6.8ms)
+Completed   in 1016ms
+
+ActionView::Template::Error (compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:6: syntax error, unexpected ')', expecting '}'
+...lue"].gsub("@google.com","") );@output_buffer.safe_concat('<...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:10: syntax error, unexpected kEND, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14: syntax error, unexpected kEND, expecting ')'):
+    3: <% @events.each do |event| %>
+    4: <article>
+    5: 	<header>
+    6: 		<h1><%= link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") %></h1>
+    7: 		<div><%= Time.parse(event["gd$when"][0]["startTime"]).ctime %></div>
+    8: 	</header>
+    9: </article>
+  app/views/home/events.html.erb:14:in `compile'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:42:18 +0300 2011
+  Processing by HomeController#events as HTML
+ERROR: compiling _app_views_home_events_html_erb__1800410348_2190158500_0 RAISED compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:6: syntax error, unexpected ')', expecting '}'
+...lue"].gsub("@google.com","") );@output_buffer.safe_concat('<...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:10: syntax error, unexpected kEND, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_home_events_html_erb__1800410348_2190158500_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "home/events";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new; title "Архив событий" 
+@output_buffer.safe_concat('
+');@output_buffer.append_if_string=  @events.each do |event| 
+@output_buffer.safe_concat('<article>
+	<header>
+		<h1>');@output_buffer.append= ( link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") );@output_buffer.safe_concat('</h1>
+		<div>');@output_buffer.append= ( Time.parse(event["gd$when"][0]["startTime"]).ctime );@output_buffer.safe_concat('</div>
+	</header>
+</article>
+'); end
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14:in `compile'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__738958071__process_action__1656261527__callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered home/events.html.erb within layouts/application (0.7ms)
+Completed   in 922ms
+
+ActionView::Template::Error (compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:6: syntax error, unexpected ')', expecting '}'
+...lue"].gsub("@google.com","") );@output_buffer.safe_concat('<...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:10: syntax error, unexpected kEND, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14: syntax error, unexpected kEND, expecting ')'):
+    3: <% @events.each do |event| %>
+    4: <article>
+    5: 	<header>
+    6: 		<h1><%= link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") %></h1>
+    7: 		<div><%= Time.parse(event["gd$when"][0]["startTime"]).ctime %></div>
+    8: 	</header>
+    9: </article>
+  app/views/home/events.html.erb:14:in `compile'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (7.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.0ms)
+
+
+Started GET "/home/" for 127.0.0.1 at Sat Mar 26 13:42:24 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 63ms (Views: 62.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:42:27 +0300 2011
+  Processing by HomeController#lastevent as HTML
+ERROR: compiling _app_views_home_lastevent_html_erb___2082589984_2190511580_0 RAISED compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:7: syntax error, unexpected '{', expecting ')'
+...реть прошедшие" { :action => "events" });@outpu...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:7: syntax error, unexpected '}', expecting ')'
+...шие" { :action => "events" });@output_buffer.safe_concat('...
+                               ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:28: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:30: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_home_lastevent_html_erb___2082589984_2190511580_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "home/lastevent";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new; title "События" 
+@output_buffer.safe_concat('
+<article>
+	<header>
+		<h1><a href="/home/lastevent">Ближайшие события</a></h1>
+	</header>
+	<p>В это разделе ниже вы можете узнать чему будут посвещены, когда и где будут проходить ближайшие встречи нашей группы и ');@output_buffer.append= ( link_to "Просмотреть прошедшие" { :action => "events" });@output_buffer.safe_concat('.</p>
+</article>
+
+<hr />
+
+<p>
+	Google calendar наших встреч
+
+	<a target="_blank" href="https://www.google.com/calendar/feeds/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/basic"><img src="https://www.google.com/calendar/images/xml.gif"></a>&nbsp;<a target="_blank" href="https://www.google.com/calendar/ical/i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com/public/basic.ics"><img src="https://www.google.com/calendar/images/ical.gif"></a>&nbsp;<a target="_blank" href="https://www.google.com/calendar/embed?src=i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com&amp;ctz=Europe/Moscow"><img src="https://www.google.com/calendar/images/html.gif"></a>
+</p>
+<p>
+	<a href="#" onclick=\'$("#gcal").slideToggle(); $(this).hide(); return false;\'>Показать календарь</a>
+</p>
+<div id=\'gcal\' style=\'display:none;\'>
+	<iframe  src="https://www.google.com/calendar/embed?height=400&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=i1hvc1jnaki2jnrqept2i8sago%40group.calendar.google.com&amp;color=%23182C57&amp;ctz=Europe%2FMoscow" style=" border-width:0 " width="600" height="400" frameborder="0" scrolling="no"></iframe>
+</div>
+<hr />
+
+<div id=\'new_events\'>
+');@output_buffer.append= ( render :partial => "eventForm" );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('</div>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:30:in `compile'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__738958071__process_action__2032545731__callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered home/lastevent.html.erb within layouts/application (0.7ms)
+Completed   in 917ms
+
+ActionView::Template::Error (compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:7: syntax error, unexpected '{', expecting ')'
+...реть прошедшие" { :action => "events" });@outpu...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:7: syntax error, unexpected '}', expecting ')'
+...шие" { :action => "events" });@output_buffer.safe_concat('...
+                               ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:28: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/lastevent.html.erb:30: syntax error, unexpected kEND, expecting ')'):
+    4: 	<header>
+    5: 		<h1><a href="/home/lastevent">Ближайшие события</a></h1>
+    6: 	</header>
+    7: 	<p>В это разделе ниже вы можете узнать чему будут посвещены, когда и где будут проходить ближайшие встречи нашей группы и <%= link_to "Просмотреть прошедшие" { :action => "events" }%>.</p>
+    8: </article>
+    9: 
+    10: <hr />
+  app/views/home/lastevent.html.erb:30:in `compile'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:43:10 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/lastevent.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 923ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:43:18 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.9ms)
+Rendered home/lastevent.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 918ms (Views: 10.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:43:22 +0300 2011
+  Processing by HomeController#events as HTML
+ERROR: compiling _app_views_home_events_html_erb__1800410348_2191435320_0 RAISED compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:6: syntax error, unexpected ')', expecting '}'
+...lue"].gsub("@google.com","") );@output_buffer.safe_concat('<...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:10: syntax error, unexpected kEND, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14: syntax error, unexpected kEND, expecting ')'
+Function body:           def _app_views_home_events_html_erb__1800410348_2191435320_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "home/events";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new; title "Архив событий" 
+@output_buffer.safe_concat('
+');@output_buffer.append_if_string=  @events.each do |event| 
+@output_buffer.safe_concat('<article>
+	<header>
+		<h1>');@output_buffer.append= ( link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") );@output_buffer.safe_concat('</h1>
+		<div>');@output_buffer.append= ( Time.parse(event["gd$when"][0]["startTime"]).ctime );@output_buffer.safe_concat('</div>
+	</header>
+</article>
+'); end
+@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14:in `compile'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__738958071__process_action__1656261527__callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:82:in `optimized_each'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered home/events.html.erb within layouts/application (0.8ms)
+Completed   in 810ms
+
+ActionView::Template::Error (compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:6: syntax error, unexpected ')', expecting '}'
+...lue"].gsub("@google.com","") );@output_buffer.safe_concat('<...
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:10: syntax error, unexpected kEND, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/events.html.erb:14: syntax error, unexpected kEND, expecting ')'):
+    3: <% @events.each do |event| %>
+    4: <article>
+    5: 	<header>
+    6: 		<h1><%= link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") %></h1>
+    7: 		<div><%= Time.parse(event["gd$when"][0]["startTime"]).ctime %></div>
+    8: 	</header>
+    9: </article>
+  app/views/home/events.html.erb:14:in `compile'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 13:43:38 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 952ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/event/o6p678hpf1d42ma5b26vv586bc" for 127.0.0.1 at Sat Mar 26 13:43:43 +0300 2011
+  Processing by HomeController#event as HTML
+  Parameters: {"id"=>"o6p678hpf1d42ma5b26vv586bc"}
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/event.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 851ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:43:47 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.8ms)
+Rendered home/lastevent.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 957ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 13:45:16 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (55.2ms)
+Completed 200 OK in 60ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 13:46:28 +0300 2011
+  Processing by HomeController#index as HTML
+ERROR: compiling _app_views_home_index_html_erb___1830798146_2191664260_0 RAISED compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/index.html.erb:11: syntax error, unexpected tASSOC, expecting '}'
+...append= ( url_for { :action => "lastevent" } );@output_buffe...
+                              ^
+Function body:           def _app_views_home_index_html_erb___1830798146_2191664260_0(local_assigns)
+            _old_virtual_path, @_virtual_path = @_virtual_path, "home/index";_old_output_buffer = @output_buffer;;@output_buffer = ActionView::OutputBuffer.new;@output_buffer.safe_concat('<article>
+
+	<header>
+		<h1><a href="/">Moscow ALT.NET</a></h1>
+		<div class="postmeta">
+			<time datetime="2011-03-19">March 19th, 2011</time>
+		</div>
+	</header>
+	<p><img src="/images/moscowaltnet-white.png" alt="moscow alt.net logo" align="left" style="margin: 0 10px 10px 0;" />Привет! Вот мы и начали запиливать наш сайтик (<a href="https://github.com/butaji/moscowaltnet"><img src="https://github.com//favicon.ico" /> fork me!</a>)</p>
+	<p><strong>Moscow ALT.NET</strong> - сообщество профессиональных разработчиков в городе Москва о чем не трудно догадаться исходя из названия, содержащего в себе геогрфическую принадлежность и некоторые буковки (<a href="http://altnetpedia.com/OverviewWhatIsIt.ashx">what is alt.net</a> ).</p>
+	<p><strong>Цель сообщества</strong> поддерживать оффлайн общение, и делиться практиками. Обычно <a href="');@output_buffer.append= ( url_for { :action => "lastevent" } );@output_buffer.safe_concat('"><img src="http://calendar.google.com/googlecalendar/images/favicon_v2010.ico" /> мы встречаемся</a> вечером каждый последний четверг месяца и проводим небольшие бесплатные семинары (часа 2,5-3 продолжительностью).</p>
+	<p><strong>Аудитория</strong> складывается из разработчиков с опытом от 2 лет. Однако никаких ограничений для посещения встречи не существует.</p>
+	<p>Мы создали небольшой <a target="new"  href="https://groups.google.com/forum/?fromgroups#!forum/moscow-altnet"><img src="https://groups.google.com/favicon.ico" /> форум на гуглогруппах</a> для общения после встреч, а так же по пересекающимся вопросам. Не обошли стороной и <a target="new"  href="http://www.facebook.com/home.php?sk=group_155129717874893&ap=1"> <img src="https://facebook.com/favicon.ico" /> facebook.</a></p>
+	<p>Продолжение следует...</p>
+	<p>&nbsp;</p>
+	
+
+</article>');@output_buffer.to_s
+          ensure
+            @_virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /Users/butaji/Documents/src/moscowaltnet/app/views/home/index.html.erb:21:in `compile'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:134:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:54:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/template.rb:127:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:59:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:56:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb:26:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:114:in `_render_template'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:108:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/renderers.rb:47:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/compatibility.rb:55:in `render_to_body'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:101:in `render_to_string'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:92:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:17:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:40:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/railties/controller_runtime.rb:15:in `cleanup_view_runtime'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:151:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb:11:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:18:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:435:in `_run__738958071__process_action__199225275__callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:409:in `_run_process_action_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:93:in `run_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/notifications.rb:52:in `instrument'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/base.rb:120:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/abstract_controller/rendering.rb:40:in `process'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:138:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_controller/metal.rb:178:in `action'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:62:in `dispatch'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:27:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:148:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:93:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:68:in `optimized_each'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/code_generation.rb:92:in `recognize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-mount-0.6.13/lib/rack/mount/route_set.rb:139:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/routing/route_set.rb:492:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/cookies.rb:295:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:32:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:12:in `cache'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/query_cache.rb:31:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activerecord-3.0.3/lib/active_record/connection_adapters/abstract/connection_pool.rb:353:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/show_exceptions.rb:46:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/logger.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/activesupport-3.0.3/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/static.rb:30:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:168:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `send'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/application.rb:77:in `method_missing'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/Users/butaji/.gem/ruby/1.8/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands/server.rb:65:in `start'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:30
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27:in `tap'
+/Users/butaji/.gem/ruby/1.8/gems/railties-3.0.3/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed   in 6ms
+
+ActionView::Template::Error (compile error
+/Users/butaji/Documents/src/moscowaltnet/app/views/home/index.html.erb:11: syntax error, unexpected tASSOC, expecting '}'
+...append= ( url_for { :action => "lastevent" } );@output_buffe...
+                              ^):
+    8: 	</header>
+    9: 	<p><img src="/images/moscowaltnet-white.png" alt="moscow alt.net logo" align="left" style="margin: 0 10px 10px 0;" />Привет! Вот мы и начали запиливать наш сайтик (<a href="https://github.com/butaji/moscowaltnet"><img src="https://github.com//favicon.ico" /> fork me!</a>)</p>
+    10: 	<p><strong>Moscow ALT.NET</strong> - сообщество профессиональных разработчиков в городе Москва о чем не трудно догадаться исходя из названия, содержащего в себе геогрфическую принадлежность и некоторые буковки (<a href="http://altnetpedia.com/OverviewWhatIsIt.ashx">what is alt.net</a> ).</p>
+    11: 	<p><strong>Цель сообщества</strong> поддерживать оффлайн общение, и делиться практиками. Обычно <a href="<%= url_for { :action => "lastevent" } %>"><img src="http://calendar.google.com/googlecalendar/images/favicon_v2010.ico" /> мы встречаемся</a> вечером каждый последний четверг месяца и проводим небольшие бесплатные семинары (часа 2,5-3 продолжительностью).</p>
+    12: 	<p><strong>Аудитория</strong> складывается из разработчиков с опытом от 2 лет. Однако никаких ограничений для посещения встречи не существует.</p>
+    13: 	<p>Мы создали небольшой <a target="new"  href="https://groups.google.com/forum/?fromgroups#!forum/moscow-altnet"><img src="https://groups.google.com/favicon.ico" /> форум на гуглогруппах</a> для общения после встреч, а так же по пересекающимся вопросам. Не обошли стороной и <a target="new"  href="http://www.facebook.com/home.php?sk=group_155129717874893&ap=1"> <img src="https://facebook.com/favicon.ico" /> facebook.</a></p>
+    14: 	<p>Продолжение следует...</p>
+  app/views/home/index.html.erb:21:in `compile'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 13:46:51 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 13:48:34 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 13:48:43 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 13:48:45 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 13:50:24 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:50:27 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/lastevent.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 818ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 13:50:29 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/speakers" for 127.0.0.1 at Sat Mar 26 13:50:32 +0300 2011
+  Processing by HomeController#speakers as HTML
+Rendered home/speakers.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 13:50:35 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/_eventForm.html.erb (0.7ms)
+Rendered home/lastevent.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1019ms (Views: 10.6ms | ActiveRecord: 0.0ms)

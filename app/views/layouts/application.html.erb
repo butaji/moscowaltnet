@@ -35,9 +35,9 @@
 			<nav>
 				<ul>
 					<li><a href="/">about</a> |</li>
-					<li><a href="/home/lastevent">events</a> |</li>
-					<li><a href="/home/news">news</a> |</li>
-					<li><a href="/home/speakers">speakers</a> |</li>
+					<li><%= link_to "events", :action => "lastevent" %> |</li>
+					<li><%= link_to "news", :action => "news" %> |</li>
+					<li><%= link_to "speakers", :action => "speakers" %> |</li>
 					<li><a href="#" id="searchButton">search</a></li>
 				</ul>
 			</nav>
