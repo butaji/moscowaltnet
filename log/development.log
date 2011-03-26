@@ -16125,3 +16125,1316 @@ ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
   
 
 Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 11:57:25 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 23ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 11:57:26 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 11:57:30 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 54ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 11:57:30 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 11:58:41 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 11:58:41 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 11:59:08 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 11:59:08 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 11:59:09 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (2.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    25: <div id='new_events'>
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @events["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@events["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+  app/views/home/events.html.erb:28:in `_app_views_home_events_html_erb__1800410348_2190080540_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.9ms)
+
+
+Started GET "/home/events" for 127.0.0.1 at Sat Mar 26 11:59:44 +0300 2011
+  Processing by HomeController#events as HTML
+Rendered home/events.html.erb within layouts/application (0.8ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    25: <div id='new_events'>
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @events["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@events["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+  app/views/home/events.html.erb:28:in `_app_views_home_events_html_erb__1800410348_2191806260_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.2ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 11:59:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 11:59:51 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 4ms
+
+ActionView::MissingTemplate (Missing template home/lastevent with {:handlers=>[:rjs, :erb, :builder, :rhtml, :rxml], :formats=>[:html], :locale=>[:en, :en]} in view paths "/Users/butaji/Documents/src/moscowaltnet/app/views"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:00:18 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.6ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    25: <div id='new_events'>
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @events["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@events["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+  app/views/home/lastevent.html.erb:28:in `_app_views_home_lastevent_html_erb___2082589984_2191156200_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:00:19 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.7ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    25: <div id='new_events'>
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @events["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@events["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+  app/views/home/lastevent.html.erb:28:in `_app_views_home_lastevent_html_erb___2082589984_2190175060_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.3ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:40 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.3ms)
+Completed   in 72ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2192019000_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (17.1ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:41 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.3ms)
+Completed   in 10ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2191096900_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.7ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:41 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2190194440_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.6ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.9ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:41 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.3ms)
+Completed   in 9ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2191749340_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:42 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.8ms)
+Completed   in 10ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2190762000_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:42 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.1ms)
+Completed   in 8ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2189940860_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (55.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (60.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:01:42 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.3ms)
+Completed   in 10ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @events["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2191586640_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (15.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:03 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.8ms)
+Completed   in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2190637760_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (10.1ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:06 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (48.1ms)
+Completed   in 54ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2189807960_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:07 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.0ms)
+Completed   in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2191112040_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:08 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.7ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2190191280_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (9.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:08 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.7ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2191839300_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.5ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:08 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.7ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2190857340_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (5.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.3ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:09 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (1.3ms)
+Completed   in 9ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2189987700_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (53.2ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (58.4ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:09 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (0.8ms)
+Completed   in 6ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of ActiveRecord::Base.
+The error occurred while evaluating nil.[]):
+    26: 	<article>
+    27: 		<header>
+    28: 			<h1><%= @lastevent["title"]["$t"] %></h1>
+    29: 			<div class="postmeta"><time datetime="<%= @events["gd$when"][0]["startTime"] %>"><%= Time.parse(@lastevent["gd$when"][0]["startTime"]).ctime %></time></div>
+    30: 			
+    31: 		</header>
+    32: 		<p>Место: <%= @lastevent["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @lastevent["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
+  app/views/home/lastevent.html.erb:29:in `_app_views_home_lastevent_html_erb___2082589984_2191640660_0'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:20 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:02:20 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:02:30 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:02:30 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:03:35 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:03:35 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:04:55 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 45ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:04:55 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:05:04 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:05:04 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:05:06 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:05:06 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:05:16 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:05:16 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:05:18 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:05:18 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:05:21 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:05:21 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:08:37 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:08:37 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:08:38 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:08:43 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:08:44 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:08:45 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:08:47 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:08:47 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:08:49 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:08:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:08:49 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:08:49 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:09:39 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:09:39 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:09:40 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:09:41 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:09:41 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:09:42 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:09:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:09:49 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/images/favicon.ico" for 127.0.0.1 at Sat Mar 26 12:09:50 +0300 2011
+
+ActionController::RoutingError (No route matches "/images/favicon.ico"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:10:12 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:10:12 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:10:16 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 45ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:10:16 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:10:19 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:10:19 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:10:22 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:10:23 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:13:11 +0300 2011
+
+SyntaxError (/Users/butaji/Documents/src/moscowaltnet/app/controllers/home_controller.rb:11: syntax error, unexpected ')', expecting kEND
+...x-results=1&alt=json").read) )["feed"]["entry"][0]
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/controllers/home_controller.rb:11: syntax error, unexpected ']', expecting kEND
+...s=1&alt=json").read) )["feed"]["entry"][0]
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/controllers/home_controller.rb:11: syntax error, unexpected ']', expecting kEND
+...son").read) )["feed"]["entry"][0]
+                              ^
+/Users/butaji/Documents/src/moscowaltnet/app/controllers/home_controller.rb:23: syntax error, unexpected $end, expecting kEND):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:13:18 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:18 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:19 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:13:23 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:24 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:13:24 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:24 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:24 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:13:31 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 991ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:32 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:32 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:13:34 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:34 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:34 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:13:36 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 746ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:36 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:36 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 12:13:39 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:39 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:39 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:13:41 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 834ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:42 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:13:42 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:16:13 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (34.5ms)
+Completed 200 OK in 991ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:14 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:14 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:16:16 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:17 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:17 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:16:18 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 929ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:19 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:19 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/speakers" for 127.0.0.1 at Sat Mar 26 12:16:21 +0300 2011
+  Processing by HomeController#speakers as HTML
+Rendered home/speakers.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:21 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:21 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:16:23 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 928ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:24 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/javascripts/jquery-ui.js" for 127.0.0.1 at Sat Mar 26 12:16:24 +0300 2011
+
+ActionController::RoutingError (No route matches "/javascripts/jquery-ui.js"):
+  
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:17:05 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 970ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:17:24 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 0ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:11:in `throw'
+  app/controllers/home_controller.rb:11:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:18:20 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Completed   in 0ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/home_controller.rb:11:in `throw'
+  app/controllers/home_controller.rb:11:in `lastevent'
+
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (4.3ms)
+Rendered /Users/butaji/.gem/ruby/1.8/gems/actionpack-3.0.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.2ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:18:26 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1021ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:18:29 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:18:30 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 953ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:18:32 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:18:34 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 994ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:18:36 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:18:38 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 936ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/news" for 127.0.0.1 at Sat Mar 26 12:18:40 +0300 2011
+  Processing by HomeController#news as HTML
+Rendered home/news.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:18:42 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1296ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:22:19 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 940ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:22:22 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:22:23 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 951ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:22:32 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:22:34 +0300 2011
+  Processing by HomeController#lastevent as HTML
+Rendered home/lastevent.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 998ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:24:40 +0300 2011
+  Processing by HomeController#lastevent as HTML
+lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 1076ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:24:45 +0300 2011
+  Processing by HomeController#lastevent as HTML
+lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 957ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:25:45 +0300 2011
+  Processing by HomeController#lastevent as HTML
+lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 946ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:25:49 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:25:50 +0300 2011
+  Processing by HomeController#lastevent as HTML
+lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 955ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:26:04 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 589ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:27:29 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 964ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:27:31 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:27:32 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 918ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at Sat Mar 26 12:27:36 +0300 2011
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/lastevent" for 127.0.0.1 at Sat Mar 26 12:27:37 +0300 2011
+  Processing by HomeController#lastevent as HTML
+================ lastevent've called
+Rendered home/lastevent.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 925ms (Views: 8.0ms | ActiveRecord: 0.0ms)
