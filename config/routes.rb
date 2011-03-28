@@ -1,7 +1,6 @@
 Moscowaltnet::Application.routes.draw do
-  resources :posts
+  resources :posts, :speeches
 
-  get "home/index"
   match "/auth/:provider/callback" => "sessions#create"
   match "/signout" => "sessions#destroy", :as => :signout
 

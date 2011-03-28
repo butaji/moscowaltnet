@@ -1,0 +1,17 @@
+<article>
+	<p id="notice"><%= notice %></p>
+
+	<p>
+		<b>Title:</b>
+		<%= @speech.title %>
+	</p>
+
+	<p>
+		<b>Body:</b>
+		<%= @speech.body %>
+	</p>
+
+
+	<%= link_to 'Edit', edit_speech_path(@speech) %> |
+	<%= link_to 'Back', speeches_path %>
+</article>

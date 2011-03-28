@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  user: 
+  speech: 
+  value: 1
+
+two:
+  user: 
+  speech: 
+  value: 1

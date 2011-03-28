@@ -12,4 +12,9 @@ module ApplicationHelper
     
     return action
   end
+  
+  def page_with_comments()
+    return !(page_id().include? "speeches") && (page_id() != "home_index") 
+      
+  end
 end

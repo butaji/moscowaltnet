@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+  has_many :speech
+  
   
   def self.create_with_omniauth(auth)
     create! do |user|

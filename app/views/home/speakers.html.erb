@@ -17,7 +17,7 @@
 </article>
 <hr />
 <% if current_user %>
-<h5><a href="#">[+] Предложить свою тему</a></h5>
+<h5><%= link_to "[+] Предложить свою тему", :controller => "speeches", :action => "new" %></h5>
 <% end%>
 
 <div class="voting">
