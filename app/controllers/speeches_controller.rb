@@ -29,7 +29,7 @@ class SpeechesController < ApplicationController
 
   def approve
   end
-  
+
   def vote_up
     speech = Speech.find(params[:id])
     if (speech.user_id == current_user.id)
@@ -63,11 +63,24 @@ class SpeechesController < ApplicationController
   end
 
   def edit
+    @speech = Speech.find(params[:id])
+    if (@speech.user_id != current_user.id)
+      redirect_to(:controller => "help", :action => "speakers")
+      return
+    end
+
     respond_with(@speech = Speech.find(params[:id]))
   end
 
   def update
     @speech = Speech.find(params[:id])
+
+    if (@speech.user_id != current_user.id)
+      redirect_to(:controller => "help", :action => "speakers")
+      return
+    end
+
+
     if @speech.update_attributes(params[:speech])
       redirect_to(@speech)
     else
