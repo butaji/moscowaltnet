@@ -4,11 +4,14 @@
 	</header>
 	<% @speeches.each do |speech| %>
 	<p>
-		  <h5><%= speech.title %></h5>
-	    <div><%= speech.body %></div>
-	    <td><%= link_to 'Show', speech %></td>
-	    <td><%= link_to 'Edit', edit_speech_path(speech) %></td>
-	    <td><%= link_to 'Destroy', speech, :confirm => 'Are you sure?', :method => :delete %>
-	</p>
-	<% end %>
-</article>
+		<h5><%= speech.title %></h5>
+		<div><%= speech.body %></div>
+		<br />
+		<div>Voices: <%= speech.voices %></div>
+		<br />
+		<td><%= link_to 'Show', speech %></td>
+		<td><%= link_to 'Edit', edit_speech_path(speech) %></td>
+		<td><%= link_to 'Destroy', speech, :confirm => 'Are you sure?', :method => :delete %>
+		</p>
+		<% end %>
+	</article>

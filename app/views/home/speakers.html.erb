@@ -8,44 +8,62 @@
 			<time datetime="2011-03-19">March 19th, 2011</time>
 		</div>
 	</header>
-	<p>Тут будет инфа о спикерах и голосовалка за ближайшие доклады. Голосовалка будет выглядеть следующим образом (см. ниже). Голосовать можно будет залогинившись или Like'ами disqus</p>
 	<% if current_user %>
-	  <p>Привет, <%= current_user.name %>! Можешь <%= link_to "разлогиниться", signout_path %>, либо производить активности на этой страничке.</p>
+	<p>Привет, <%= current_user.name %>! Можешь <%= link_to "разлогиниться", signout_path %>, либо производить активности на этой страничке.</p>
 	<% else %>
-	  <p>Для того, чтобы добавить предложение о докладе либо проголосовать вам необходимо залогиниться <%= link_to "здесь", "/auth/google" %>
-	<% end %></p> 
-</article>
-<hr />
+	<p>Для того, чтобы добавить предложение о докладе либо проголосовать вам необходимо залогиниться <%= link_to "здесь", "/auth/google" %>
+		<% end %></p> 
+	</article>
+	<hr />
+	<% if current_user %>
+	<h5><%= link_to "[+] Предложить свою тему", :controller => "speeches", :action => "new" %></h5>
+	<% end%>
+
+	<div class="voting">
+		<% @speeches.each do |speech| %>
+		<article>
+			<header>
+				<div class="vote">
+					<div><a href="#" class="button_vote" data-dir="up" data-sid="<%= speech.id %>">+</a></div>
+					<div id="voices_<%= speech.id %>"><%= speech.voices %></div>
+					<div><a href="#" class="button_vote" data-dir="down" data-sid="<%= speech.id %>">-</a></div>
+				</div>
+				<h1><%= speech.title %></h1>
+			</header>
+			<p>Предложено: <a href="mailto:<%= speech.user.email %>"><%= speech.user.name %></a>. <%= link_to 'You can edit it', edit_speech_path(speech) if (current_user && speech.user_id == current_user.id ) %></p>
+			<p><%= speech.body %></p>
+		</article>
+		<% end %>
+	</div>
+
 <% if current_user %>
-<h5><%= link_to "[+] Предложить свою тему", :controller => "speeches", :action => "new" %></h5>
-<% end%>
 
-<div class="voting">
-	<article>
-		<header>
-			<div class="vote">
-				<div><a href="#">+</a></div>
-				<div>10</div>
-				<div><a href="#">-</a></div>
-			</div>
-			<h1>Написание LINQ провайдера</h1>
-		</header>
-		<p>Предложено: <a href="http://twitter.com/butaji">Vitaly Baum</a></p>
-		<p>В докладе будет продемонстрировано написание LINQ провайдера. Автор расскажет об особенностях работы с Expressions.</p>
-	</article>
-	<article>
-		<header>
-			<div class="vote">
-				<div><a href="#">+</a></div>
-				<div>9</div>
-				<div><a href="#">-</a></div>
-			</div>
-			<h1>Функциональная парадигма в .NET</h1>
-		</header>
-		<p>Предложено: <a href="http://twitter.com/controlflow">Alexander Shvedov</a></p>
-		<p>В докладе будет продемонстрированы особенности имплементации ФП на .NET.</p>
-	</article>
-</div>
+<script type="text/javascript">
+	$(function(){
+		$(".button_vote").click(function(){ 
+			vote($(this).attr("data-dir"), $(this).attr("data-sid"));
+			return false;
+		});
+	});
+	
+	function vote(dir, id) {
 
+		$.ajax({
+			type: "GET",
+			url: "<%= url_for(:controller => 'speeches') %>/vote_" + dir + "/" + id,
+			dataType: "json",
+			success: function(result){
+				if (result.voices)
+				$("#voices_"+id).text(result);
+				else 
+				alert("Sorry, something goes wrong. \n" + result.message);
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown){
+				alert(textStatus);
+			}
+		});
+	}
+	</script>
 
+<% end %>
 

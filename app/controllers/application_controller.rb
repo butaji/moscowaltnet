@@ -9,4 +9,10 @@ class ApplicationController < ActionController::Base
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
 
+  def authorize
+    if (!current_user)
+      redirect_to :controller => "home", :action => "index"
+    end
+  end
+
 end

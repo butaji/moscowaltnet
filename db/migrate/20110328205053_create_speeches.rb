@@ -4,6 +4,8 @@ class CreateSpeeches < ActiveRecord::Migration
       t.references :user
       t.string :title
       t.text :body
+      t.boolean :approved
+      t.integer :voices
     
       t.timestamps
     end

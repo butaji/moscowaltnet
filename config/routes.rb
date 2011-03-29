@@ -1,5 +1,10 @@
 Moscowaltnet::Application.routes.draw do
-  resources :posts, :speeches
+  resources :posts, :speeches do
+    member do
+      get 'vote_up'
+      get 'vote_down'
+    end
+  end
 
   match "/auth/:provider/callback" => "sessions#create"
   match "/signout" => "sessions#destroy", :as => :signout

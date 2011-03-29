@@ -25,6 +25,7 @@ class HomeController < ApplicationController
   end
 
   def speakers
+    @speeches = Speech.where(:approved => false).order('voices DESC')
   end
-
+  
 end
