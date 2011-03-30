@@ -15,6 +15,7 @@ class Voice < ActiveRecord::Base
     @voice.user_id = user.id
     @voice.value = value
     @voice.speech_id = speech.id
+    @voice.save
     
     speech.voices += value
     speech.save
