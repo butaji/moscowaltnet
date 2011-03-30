@@ -44,7 +44,6 @@ class SpeechesController < ApplicationController
 
     @voice = Voice.up(current_user, speech)
     respond_with(:voices => speech.voices)
-    @voice.save
   end
 
   def vote_down
