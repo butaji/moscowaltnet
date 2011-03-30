@@ -46,6 +46,7 @@ class SpeechesController < ApplicationController
     respond_with(:voices => speech.voices)
   end
 
+  #need to reduce dublicated code
   def vote_down
     speech = Speech.find(params[:id])
     if (speech.user_id == current_user.id)
