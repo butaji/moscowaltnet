@@ -1,17 +1,19 @@
-<article>
-	<p id="notice"><%= notice %></p>
+<div class="voting">
+	<article>
+		<header>
+			<div class="vote">
+				<div><a href="#" class="button_vote" data-dir="up" data-sid="<%= @speech.id %>">+</a></div>
+				<div id="voices_<%= @speech.id %>"><%= @speech.voices %></div>
+				<div><a href="#" class="button_vote" data-dir="down" data-sid="<%= @speech.id %>">-</a></div>
+			</div>
+			<h1><%= link_to @speech.title, @speech %></h1>
+		</header>
+		<p>Предложено: <a href="mailto:<%= @speech.user.email %>"><%= @speech.user.name %></a>. <%= link_to 'You can edit it', edit_speech_path(@speech) if (current_user && @speech.user_id == current_user.id ) %></p>
+		<p><%= @speech.body %></p>
 
-	<p>
-		<b>Title:</b>
-		<%= @speech.title %>
-	</p>
+		<%= link_to 'Edit |', edit_speech_path(@speech) if (current_user && @speech.user_id == current_user.id ) %>
+		<%= link_to 'Back', :controller => "home", :action => "speakers" %>
+	</article>
+</div>
 
-	<p>
-		<b>Body:</b>
-		<%= @speech.body %>
-	</p>
-
-
-	<%= link_to 'Edit', edit_speech_path(@speech) %> |
-	<%= link_to 'Back', speeches_path %>
-</article>
+<%= render 'home/voting' %>

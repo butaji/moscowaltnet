@@ -1,0 +1,31 @@
+<% if current_user %>
+
+<script type="text/javascript">
+	$(function(){
+		$(".button_vote").click(function(){ 
+			vote($(this).attr("data-dir"), $(this).attr("data-sid"));
+			return false;
+		});
+	});
+	
+	function vote(dir, id) {
+
+		$.ajax({
+			type: "GET",
+			url: "<%= url_for(:controller => 'speeches') %>/vote_" + dir + "/" + id,
+			dataType: "json",
+			success: function(result){
+				if (result.voices)
+					$("#voices_"+id).text(result.voices);
+				else 
+					alert("Sorry, something goes wrong. \n" + result.message);
+			},
+			error: function(XMLHttpRequest, textStatus, errorThrown){
+				alert(textStatus);
+			}
+		});
+	}
+	</script>
+
+<% end %>
+

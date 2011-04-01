@@ -1,6 +1,6 @@
 class SpeechesController < ApplicationController
   respond_to :html, :json
-  before_filter :authorize
+  before_filter :authorize, :except => :show 
 
   def new
     @speech = Speech.new

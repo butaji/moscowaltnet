@@ -14,7 +14,7 @@ module ApplicationHelper
   end
   
   def page_with_comments()
-    return !(page_id().include? "speeches") && (page_id() != "home_index") 
+    return (!(page_id().include? "speeches") || (page_id().include? "speeches_show")) && (page_id() != "home_index")
       
   end
 end
