@@ -10,7 +10,7 @@ class HomeController < ApplicationController
   def lastevent
     @lastevents = JSON.parse(open("#{cal_url}?alt=json&futureevents=true&orderby=starttime&sortorder=ascending&max-results=1").read)["feed"]["entry"]
     if @lastevents && @lastevents.first
-      @event = first
+      @event = @lastevents.first
     end
   end
   
