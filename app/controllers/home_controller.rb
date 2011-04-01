@@ -2,9 +2,11 @@ require 'open-uri'
 require 'json'
    
 class HomeController < ApplicationController 
-  caches_action :lastevent, :expires_in => 24.hours, :layout => false
+  #caches_action :lastevent, :expires_in => 24.hours, :layout => false
+  #caches_action :index, :expires_in => 24.hours, :layout => false
   
   def index
+    @event = lastevent()
   end
   
   def lastevent
