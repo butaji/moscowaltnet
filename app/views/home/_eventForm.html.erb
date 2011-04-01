@@ -5,5 +5,5 @@
 		
 	</header>
 	<p>Место: <%= @event["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @event["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
-	<p><pre cols="85"><%= @event["content"]["$t"] %></pre></p>
+	<p><pre><%= @event["content"]["$t"] %></pre></p>
 </article>

@@ -255,5 +255,14 @@ aside.comments article .meta time {
 	margin-left: 80px;
 	padding: 0px;
 	margin-bottom: 10px;
-	
+
+}
+pre {
+	font-size: 14px;
+	overflow-x: auto;
+	white-space: pre-wrap; 
+	white-space: -moz-pre-wrap !important; 
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap; 
+	word-wrap: break-word; 
 }
