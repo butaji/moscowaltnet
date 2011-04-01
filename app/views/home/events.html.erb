@@ -3,7 +3,7 @@
 <% @events.each do |event| %>
 <article>
 	<header>
-		<h1><%= link_to event["title"]["$t"], {:action => "event", :id => event["gCal$uid"]["value"].gsub("@google.com","") } %></h1>
+		<h1><%= link_to event["title"]["$t"], {:action => "event", :id => event["id"]["$t"].gsub("#{cal_url}/","")  } %></h1>
 		<div><%= Time.parse(event["gd$when"][0]["startTime"]).ctime %></div>
 	</header>
 </article>
