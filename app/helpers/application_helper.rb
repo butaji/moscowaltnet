@@ -13,6 +13,10 @@ module ApplicationHelper
     return action
   end
   
+  def parse_date_time(param)
+    DateTime.parse(param).ctime
+  end
+  
   def page_with_comments()
     return (!(page_id().include? "speeches") || (page_id().include? "speeches_show")) && (page_id() != "home_index")
       

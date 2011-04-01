@@ -4,7 +4,7 @@
 <article>
 	<header>
 		<h1><%= link_to event["title"]["$t"], {:action => "event", :id => event["id"]["$t"].gsub("#{cal_url}/","")  } %></h1>
-		<div><%= Time.parse(event["gd$when"][0]["startTime"]).ctime %></div>
+		<div><%= parse_date_time(event["gd$when"][0]["startTime"]) %></div>
 	</header>
 </article>
 <% end%>

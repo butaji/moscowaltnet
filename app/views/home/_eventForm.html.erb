@@ -1,7 +1,7 @@
 <article>
 	<header>
 		<h1><%= @event["title"]["$t"] %></h1>
-		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= Time.parse(@event["gd$when"][0]["startTime"]).ctime %></time></div>
+		<div class="postmeta"><time datetime="<%= @event["gd$when"][0]["startTime"] %>"><%= parse_date_time(@event["gd$when"][0]["startTime"]) %></time></div>
 		
 	</header>
 	<p>Место: <%= @event["gd$where"][0]["valueString"] %><a href="http://maps.google.com/maps?q=<%= @event["gd$where"][0]["valueString"] %>" target="new">(map)</a></p>
