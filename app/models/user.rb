@@ -13,7 +13,14 @@
 #
 
 class User < ActiveRecord::Base
+#  using_access_control
+  typed_serialize :roles, Array
   has_many :speech
+
+
+  def role_symbols
+    @role_symbols ||= (roles || []).map {|r| r.to_sym}
+  end
   
   
   def self.create_with_omniauth(auth)
@@ -22,6 +29,7 @@ class User < ActiveRecord::Base
       user.uid = auth["uid"]
       user.name = auth["user_info"]["name"]
       user.email = auth["user_info"]["email"]
+      user.roles = [:user]
     end
   end
   

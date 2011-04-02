@@ -1,6 +1,7 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
   helper_method :current_user, :cal_url
+  before_filter :set_current_user
 
   private
 
@@ -16,6 +17,10 @@ class ApplicationController < ActionController::Base
     if (!current_user)
       redirect_to :controller => "home", :action => "index"
     end
+  end
+
+  def set_current_user
+    Authorization.current_user = current_user
   end
 
 end

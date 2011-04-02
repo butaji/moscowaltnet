@@ -8,10 +8,10 @@
 			</div>
 			<h1><%= link_to @speech.title, @speech %></h1>
 		</header>
-		<p>Предложено: <a href="mailto:<%= @speech.user.email %>"><%= @speech.user.name %></a>. <%= link_to 'You can edit it', edit_speech_path(@speech) if (current_user && @speech.user_id == current_user.id ) %></p>
+		<p>Предложено: <a href="mailto:<%= @speech.user.email %>"><%= @speech.user.name %></a>. <%= link_to 'You can edit it', edit_speech_path(@speech) if permitted_to? :edit, @speech %></p>
 		<p><%= @speech.body %></p>
 
-		<%= link_to 'Edit |', edit_speech_path(@speech) if (current_user && @speech.user_id == current_user.id ) %>
+		<%= link_to 'Edit |', edit_speech_path(@speech) if permitted_to? :edit, @speech %>
 		<%= link_to 'Back', :controller => "home", :action => "speakers" %>
 	</article>
 </div>

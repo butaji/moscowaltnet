@@ -1,6 +1,7 @@
 class SpeechesController < ApplicationController
   respond_to :html, :json
-  before_filter :authorize, :except => :show
+#  before_filter :authorize, :except => :show
+  filter_resource_access
 
   def new
     @speech = Speech.new
@@ -64,6 +65,7 @@ class SpeechesController < ApplicationController
 
   def edit
     @speech = Speech.find(params[:id])
+    # check 20 times :user permissions (just in case) and delete this conditions
     if (@speech.user_id != current_user.id)
       redirect_to(:controller => "help", :action => "speakers")
       return

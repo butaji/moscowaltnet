@@ -9,6 +9,9 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 gem 'jquery-rails', '>= 0.2.6'
 gem 'json'
 gem 'omniauth'
+gem 'declarative_authorization'
+gem 'typed_serialize'
+gem 'ruby_parser'
 
 group :development do
   gem 'mongrel'
