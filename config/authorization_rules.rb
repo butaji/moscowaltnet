@@ -1,6 +1,7 @@
 authorization do
   role :admin do
-    has_permission_on :speeches, :to => [:index, :show, :new, :create, :edit, :update, :destroy, :vote_up, :vote_down]
+    includes :user
+    has_permission_on :speeches, :to => [:index, :edit, :update, :destroy]
   end
 
   role :moderator do
@@ -12,6 +13,7 @@ authorization do
   end
 
   role :user do
+    includes :guest
     has_permission_on :speeches, :to => [:show, :new, :create, :vote_up, :vote_down]
     has_permission_on :speeches, :to => [:edit, :update] do
       if_attribute :user => is { user }
