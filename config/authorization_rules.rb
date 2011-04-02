@@ -14,7 +14,7 @@ authorization do
 
   role :user do
     includes :guest
-    has_permission_on :speeches, :to => [:show, :new, :create, :vote_up, :vote_down]
+    has_permission_on :speeches, :to => [:index, :show, :new, :create, :vote_up, :vote_down]
     has_permission_on :speeches, :to => [:edit, :update] do
       if_attribute :user => is { user }
     end
