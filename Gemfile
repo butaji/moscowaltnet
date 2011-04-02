@@ -10,6 +10,11 @@ gem 'jquery-rails', '>= 0.2.6'
 gem 'json'
 gem 'omniauth'
 
+group :development do
+  gem 'mongrel'
+  gem 'annotate-models'
+end
+
 # Use unicorn as the web server
 # gem 'unicorn'
 

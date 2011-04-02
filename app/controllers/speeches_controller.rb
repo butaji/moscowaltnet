@@ -1,6 +1,6 @@
 class SpeechesController < ApplicationController
   respond_to :html, :json
-  before_filter :authorize, :except => :show 
+  before_filter :authorize
 
   def new
     @speech = Speech.new
@@ -32,12 +32,12 @@ class SpeechesController < ApplicationController
 
   def vote_up
     speech = Speech.find(params[:id])
-    if (speech.user_id == current_user.id)
+    unless (speech.votable?(current_user))
       respond_with(:message => "You can't vote for yours own posts")
       return
     end
 
-    if (Voice.where(:user_id => current_user.id).where(:speech_id => params[:id]).first)
+    if (speech.voted?(current_user))
       respond_with(:message => "You've already voted for this post")
       return
     end
@@ -46,15 +46,14 @@ class SpeechesController < ApplicationController
     respond_with(:voices => speech.voices)
   end
 
-  #need to reduce dublicated code
   def vote_down
     speech = Speech.find(params[:id])
-    if (speech.user_id == current_user.id)
+    unless (speech.votable?(current_user))
       respond_with(:message => "You can't vote for yours own posts")
       return
     end
 
-    if (Voice.where(:user_id => current_user.id).where(:speech_id => params[:id]).first)
+    if (speech.voted?(current_user))
       respond_with(:message => "You've already voted for this post")
       return
     end

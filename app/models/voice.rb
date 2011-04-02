@@ -1,3 +1,16 @@
+# == Schema Information
+# Schema version: 20110328210907
+#
+# Table name: voices
+#
+#  id         :integer         not null, primary key
+#  user_id    :integer
+#  speech_id  :integer
+#  value      :integer
+#  created_at :datetime
+#  updated_at :datetime
+#
+
 class Voice < ActiveRecord::Base
   belongs_to :user
   belongs_to :speech
